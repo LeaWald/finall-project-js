@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda - סל הקניות</title>
+    <link rel="icon" href="./pictures/logo/logo panda_head.png">
+    <link rel="stylesheet" href="./basket.css">
+</head>
+
+<body>
+    <a href="./product.html" id="AllP">כל הנעליים >>></a>
+    <div id="logo">
+        <a href="./home.html"><img src="./pictures/logo/logo panda.png" alt=""></a>
+    </div>
+    <div class="cart-container">
+        <div id="bag">
+            <a href="./basket.html"> <img src="./pictures/icon/shopping-cart (1).png" alt=""></a>
+            <div id="circle">0</div>
+        </div>
+    </div>
+    <div id="textHello">שלום <span id="Name_user"></span></div>
+    <div id="colorLink">
+        <p style="background-color: rgb(245 148 165);"></p>
+        <p style="background-color: rgb(233 132 109);"></p>
+        <p style="background-color: rgb(253 197 83);"></p>
+        <p style="background-color: rgb(223 222 110);"></p>
+        <p style="background-color: rgb(161 218 222);"></p>
+    </div>
+    <h1 id="shopping">סל הקניות</h1>
+    <p id="empty"></p>
+
+    <div id="payment-form">
+        <img src="./pictures/icon/איקס שחור.png" alt="" id="formX">
+        <h2>טופס תשלום</h2>
+        <form method="POST">
+
+            <label for="name">שם</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phon">טלפון</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <label for="address">כתובת</label>
+            <input type="address" id="address" name="address" required>
+
+            <label for="email">אמייל</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="card-number">מס' אשראי</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 1234 1234 1234" required>
+
+            <label for="expiry-date">תאריך</label>
+            <input type="date" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">cvv</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <button type="submit" id="PayNow">תשלום כעת</button>
+        </form>
+        <div id="gif">
+            <img src="./pictures/logo/7efs (1).gif">
+            <h1>ההזמנה בדרך אליכם :)</h1>
+        </div>
+    </div>
+    <div id="toPay">
+        <p id="pay">סך לתשלום: <span id="sumPay">0</span> ש"ח</p>
+        <button id="btnPay">לתשלום</button>
+    </div>
+
+    <div id="AllBag"></div>
+
+    <div id="footer">
+        <br>
+        <h1>יש לנו מידע שווה וקטלוגים מהממים</h1>
+        <h2>רוצה לשמוע עליהם מיד כשהם מתעדכנים?</h2>
+        <form id="addressMail">
+            <label for="firstName"></label>
+            <input type="text" name="firstName" id="firstName" placeholder="שם" required>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="לאיזו כתובת מייל לשלוח את המידע?" required>
+            <button type="submit" id="get">>>></button>
+        </form>
+    </div>
+
+    <script src="./basket.js"></script>
+</body>
+
+</html>

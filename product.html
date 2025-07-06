@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda - כל הנעליים </title>
+    <link rel="icon" href="./pictures/logo/logo panda_head.png">
+    <link rel="stylesheet" href="./product.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <img src="./pictures/icon/image (7).png" id="burg" alt="">
+            <div id="link">
+                <a class="category">בייבי</a>
+                <a class="category">בנות</a>
+                <a class="category">בנים</a>
+                <a class="category">נשים</a>
+                <a class="category">כל הנעליים</a>
+            </div>
+        </div>
+        <div id="logo">
+            <a href="./home.html"><img src="./pictures/logo/logo panda.png" alt=""></a>
+        </div>
+        <br><br>
+        <form id="search_form">
+            <input type="text" id="search" placeholder="חפש...">
+            <button type="submit" id="search_img">
+                <img src="./pictures/icon/search_24dp_5F6368.png">
+            </button>
+        </form>
+
+        <div class="cart-container">
+            <div id="bag">
+                <a href="./basket.html"> <img src="./pictures/icon/shopping-cart (1).png" alt=""></a>
+                <div id="circle">0</div>
+            </div>
+        </div>
+        <div id="text">שלום <span id="Name_user"></span></div>
+    </header>
+    <section>
+
+        <div id="colorLink">
+            <p style="background-color: rgb(245 148 165);" class="category">בייבי</p>
+            <p style="background-color: rgb(233 132 109);" class="category">בנות</p>
+            <p style="background-color: rgb(253 197 83);" class="category">בנים</p>
+            <p style="background-color: rgb(223 222 110);" class="category">נשים</p>
+            <p style="background-color: rgb(161 218 222);" class="category">כל הנעליים</p>
+        </div>
+        <h1></h1>
+        <div id="allProducts">
+
+        </div>
+    </section>
+    <div id="footer">
+        <br>
+        <h1>יש לנו מידע שווה וקטלוגים מהממים</h1>
+        <h2>רוצה לשמוע עליהם מיד כשהם מתעדכנים?</h2>
+        <form id="addressMail">
+            <label for="firstName"></label>
+            <input type="text" name="firstName" id="firstName" placeholder="שם" required>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="לאיזו כתובת מייל לשלוח את המידע?" required>
+            <button type="submit" id="get">>>></button>
+        </form>
+    </div>
+    <script src="./jquery-3.2.1.js"></script>
+    <script src="./product.js"></script>
+</body>
+
+</html>

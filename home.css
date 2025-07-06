@@ -1,0 +1,475 @@
+html {
+    direction: rtl;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 15%;
+    justify-content: space-evenly;
+    top: 0%;
+    padding-top: 2%;
+    padding-bottom: 10px;
+    align-items: center;
+    align-content: space-around;
+}
+
+#text {
+    margin-top: 0.5%;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+#right {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    align-items: center;
+}
+
+
+#nav a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    border-bottom: solid 2px #a7826a;
+    margin-right: 40px;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+#nav a:hover {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.popUp {
+    display: none;
+    position: fixed;
+    width: 35%;
+    direction: rtl;
+    transform: translate(-50%, -50%);
+    background-color: rgb(232 240 254);
+    border: solid 1px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999999;
+    padding-bottom: 5%;
+    margin-right: 210px;
+    border-radius: 10%;
+    margin-top: -350px;
+}
+
+#popUp h1 {
+    text-align: center;
+    font-size: 47px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#formLogin {
+    margin-top: -100px;
+    margin-bottom: 2%;
+}
+
+#popUp #formLogin {
+    text-align: center;
+}
+
+#popUp label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+.login {
+    background-color: rgb(232 240 254);
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+
+#userName {
+    border-bottom: solid 2px black;
+    margin-right: 1.5%;
+}
+
+#userName input:focus {
+    background-color: rgb(232 240 254);
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(232 240 254);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
+#connect {
+    width: 90px;
+    height: 30px;
+    color: rgb(232 240 254);
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+
+#password {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 2px black;
+    margin-right: 1.5%;
+}
+
+#popUp h4 {
+    text-align: center;
+    font-size: 55px;
+}
+
+form {
+    margin-top: -100px;
+    margin-bottom: 2%;
+}
+
+#formX {
+    width: 20px;
+    margin-right: 480px;
+    margin-top: 40px;
+}
+
+.login {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+
+#userName {
+    border-bottom: solid 2px black;
+    margin-right: 4%;
+}
+
+#userName input:focus {
+    background-color: antiquewhite;
+}
+
+#logo img {
+    width: 150px;
+}
+
+#bag {
+    border: none;
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+#circle {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#bag img {
+    width: 30px;
+}
+
+h4 {
+    display: none;
+}
+
+#branch {
+    font-size: 600%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    height: 450px;
+    width: 100%;
+}
+
+th {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+td {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#first {
+    background-color: rgb(250, 185, 196);
+}
+
+#second {
+    background-color: rgb(226, 155, 138);
+}
+
+#third {
+    background-color: rgb(253, 208, 119);
+}
+
+#fourth {
+    background-color: rgb(219, 217, 127);
+}
+
+#fifth {
+    background-color: rgb(187, 209, 210);
+}
+
+
+
+/* עיצוב אחריות */
+
+#responsibility {
+    font-size: 600%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+#respons {
+    width: 80%;
+    margin-top: -2.5%;
+    padding-left: 3%;
+}
+
+#mail {
+    margin-right: 2.8%;
+    margin-top: 0%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(73 70 71);
+}
+
+
+
+/* עיצוב שירות לקוחות */
+
+#custServise {
+    font-size: 600%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+#connectForm {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(248 248 246);
+    padding-bottom: 3%;
+    padding-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#connectForm img {
+    height: 120px;
+}
+
+#connectForm h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: -1%;
+}
+
+#connectForm input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    background-color: rgb(248 248 246);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#phone {
+    text-align: right;
+}
+
+#textarea {
+    height: 85px;
+    width: 43%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(248 248 246);
+}
+
+#connectForm h2 {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 33%;
+}
+
+#file {
+    margin-left: -6%;
+    padding-left: 0%;
+    width: 30%;
+}
+
+#connectForm button {
+    margin-right: 114px;
+    padding: 0.3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+#connectForm #reset {
+    margin-left: -110px;
+}
+
+#bg1 {
+    width: 100%;
+    padding-top: 0%;
+    background-image: url(./pictures/logo/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: animation 25s infinite;
+    background-size: cover;
+    height: 100vh;
+}
+
+@keyframes animation {
+    11.11% {
+        background-image: url(./pictures/logo/background1.png);
+    }
+
+    22.22% {
+        background-image: url(./pictures/logo/background2.png);
+    }
+
+    33.33% {
+        background-image: url(./pictures/logo/background3.png);
+    }
+
+    44.44% {
+        background-image: url(./pictures/logo/background4.png);
+    }
+
+    55.55% {
+        background-image: url(./pictures/logo/background5.png);
+    }
+
+    66.66% {
+        background-image: url(./pictures/logo/background6.png);
+    }
+
+    77.77% {
+        background-image: url(./pictures/logo/background7.png);
+    }
+
+    88.88% {
+        background-image: url(./pictures/logo/background8.png);
+    }
+
+    99.99% {
+        background-image: url(./pictures/logo/background9.png);
+    }
+
+}
+
+/* עיצוב לפוטר */
+
+#footer {
+    background-color: rgb(225 194 160);
+    color: rgb(73 70 71);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 3%;
+}
+
+#addressMail {
+    padding-top: 130px;
+}
+
+#footer h1 {
+    font-size: 200%;
+}
+
+#footer h2 {
+    font-size: 130%;
+    margin-top: -1%;
+    font-weight: 500;
+}
+
+#addressMail #email {
+    background-color: rgb(225 194 160);
+    width: 20%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-size: medium;
+}
+
+#addressMail #firstName {
+    background-color: rgb(225 194 160);
+    width: 10%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-size: medium;
+}
+
+#addressMail button {
+    border: 1px solid black;
+    color: rgb(73 70 71);
+    background-color: rgb(225 194 160);
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#addressMail button:hover {
+    color: rgb(225 194 160);
+    background-color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./pictures/logo/logo panda_head.png">
+    <link rel="stylesheet" href="./DetailProduct.css">
+</head>
+
+<body>
+    <a href="./product.html" id="AllP">כל הנעליים >>></a>
+    <div id="logo">
+        <a href="./home.html"><img src="./pictures/logo/logo panda.png" alt=""></a>
+    </div>
+    <div class="cart-container">
+        <div id="bag">
+            <a href="./basket.html"> <img src="./pictures/icon/shopping-cart (1).png" alt=""></a>
+            <div id="circle">0</div>
+        </div>
+    </div>
+    <div id="textHello">שלום <span id="Name_user"></span></div>
+    <div id="colorLink">
+        <p style="background-color: rgb(245 148 165);"></p>
+        <p style="background-color: rgb(233 132 109);"></p>
+        <p style="background-color: rgb(253 197 83);"></p>
+        <p style="background-color: rgb(223 222 110);"></p>
+        <p style="background-color: rgb(161 218 222);"></p>
+    </div>
+
+
+
+    <div class="Detail">
+        <img id="img" />
+        <div id="text">
+            <p id="name"></p>
+            <p id="price">מחיר <span></span></p>
+            <label id="choose_size_text">לבחירת מידה</label>
+            <select id="choose_size">
+                <option></option>
+            </select><br>
+            <label id="quntity">כמות</label>
+            <input id="quaNumber" type="number" value="1" min="1"><br>
+            <button id="addBag">הוספה לסל</button>
+            <div id="notification" class="notification hidden">הפריט נוסף בהצלחה!!</div>
+        </div>
+
+    </div>
+    <script src="./jquery-3.2.1.js"></script>
+    <script src="./DetailProduct.js"> </script>
+</body>
+
+</html>
